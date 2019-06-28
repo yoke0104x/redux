@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #ccc;
+}
+
+html, body, #root, #root > div, .main {
+  width: 100%;
+  height: 100%;
+}
+
+.car_header {
+  width: 100%;
+  height: 80px;
+  background: #9b2eff;
+}
+
+.car_top, .car_tops {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #CCC;
+  background: #9b2eff;
+}
+
+.car_top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.car_top > span {
+  color: #ccc;
+}
+
+.car_top > span > div > p {
+  color: #000;
+}
+
+.attr {
+  color: #fff !important;
+}
+
+.main {
+  overflow: scroll;
+}
+
+.left {
+  position: fixed;
+  top: 20%;
+  right: 5px;
+}
+
+.car_tops {
+  display: flex;
+}
+
+.car_tops > div > ul {
+  background: #fff;
+  z-index: 99999;
+  width: 170px;
+  position: absolute;
+}
